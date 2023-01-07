@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/blueLigh"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:id="@+id/layout_dialog_text0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Category"
+
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_dialog_text1"
+        android:textSize="15dp"
+        android:textColor="@color/blueLigh"
+        android:layout_below="@id/linear"
+        android:text="Enter Category name"
+        android:padding="2.5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_dialog_categoryname"
+        android:hint="CategoryName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="16dp"
+        android:layout_below="@id/layout_dialog_text1"
+        android:textColor="#283747"
+        android:textColorHint="#7F8C8D"
+        android:background="@color/white"
+        android:layout_marginBottom="40dp"
+        android:padding="2.5dp"
+        />
+
+    <TextView
+        android:id="@+id/layout_dialog_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_dialog_categoryname"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:padding="2.5dp"
+        android:text="Enter Description"
+        android:textColor="@color/blueLigh"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:maxLines="25"
+        android:minLines="15"
+        android:scrollbars="vertical"
+        android:id="@+id/layout_dialog_description"
+        android:hint="CategoryDescription"
+        android:gravity="top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:layout_below="@id/layout_dialog_text2"
+        android:textColor="#283747"
+        android:textColorHint="#7F8C8D"
+
+        android:background="@color/white"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/layout_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@id/layout_dialog_description"
+        android:layout_marginLeft="50dp"
+
+        />
+    <Button
+        android:id="@+id/layout_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@id/layout_dialog_description"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#EB20296E"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="UPDATE CONTROL PANEL"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/update_product"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/lato"
+        android:hint="Product"
+        android:inputType="none"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/update_quantity"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato"
+        android:hint="Quantity"
+        android:textColorHint="#792B2A2A"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/update_description"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato"
+        android:hint="Description"
+        android:textColorHint="#792B2A2A"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/usubmit"
+        android:layout_width="374dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/lato"
+        android:text="Update"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        app:backgroundTint="#EB20296E" />
+
+</LinearLayout>

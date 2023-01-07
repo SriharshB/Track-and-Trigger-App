@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147554691455",
+    "firebase_url": "https://organicer-b407b.firebaseio.com",
+    "project_id": "organicer-b407b",
+    "storage_bucket": "organicer-b407b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147554691455:android:2f7462ce394ed5409cd24a",
+        "android_client_info": {
+          "package_name": "com.aditi.reform2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147554691455-56di4bg2prcotcvedff73as15kmfntf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnLssfF3sqegNwtAy_p4mr-HMZR8pN1uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147554691455-56di4bg2prcotcvedff73as15kmfntf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
